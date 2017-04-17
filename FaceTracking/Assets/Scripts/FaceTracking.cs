@@ -29,13 +29,16 @@ public class FaceTracking : MonoBehaviour
     Mat frame;
     // Current frame texture.
     Texture2D snapFrame;
-
+    Point[][] contours;
+    HierarchyIndex[] hierarchy;
     // Video size
     private const int imWidth = 1280;
     private const int imHeight = 720;
     private int imFrameRate = 180;
 
-
+    // Mat used to hold grayScaled image.
+    Mat gray = new Mat();
+    Mat cannyOutput = new Mat();
 
     CascadeClassifier haarCascade = new CascadeClassifier("..\\FaceTracking\\Assets\\HaarCascades\\haarcascades\\haarcascade_frontalface_default.xml");
     CascadeClassifier eyeCascade = new CascadeClassifier("..\\FaceTracking\\Assets\\HaarCascades\\haarcascades\\haarcascade_eye.xml");
@@ -47,15 +50,13 @@ public class FaceTracking : MonoBehaviour
         frame = new Mat();
         capture.Open(deviceNumber);
         capture.Read(frame);
-        frame.SaveImage("image.jpg");
-        snapFrame = (Texture2D) Resources.Load("image.jpg");
+        //frame.SaveImage("image.jpg");
+        // snapFrame = (Texture2D) Resources.Load("image.jpg");
 
-        WebCamTextureRenderer.material.mainTexture = snapFrame;
-      
-
-
+        //  WebCamTextureRenderer.material.mainTexture = snapFrame;
     }
 
+    // Rotates and returns a mat that has been rotated by a certain angle.
     Mat RotateFrame(Mat src, double angle)
     {
         Mat dst = new Mat();
@@ -68,48 +69,48 @@ public class FaceTracking : MonoBehaviour
 
     void Update()
     {
-        // Mat used to hold grayScaled image.
-        Mat gray = new Mat();
         // If the webcam has been updated, update the frame.
         if (capture.Read(frame))
         {
             // Convert the frame into grayscale.
             Cv2.CvtColor(frame, gray, ColorConversionCodes.RGB2GRAY);
-            // Equalise lighting to make landmark detection more accurate.
+          
+            // Equalise lighting to make landmark detection more accurate. - detecting points.
             Cv2.EqualizeHist(gray, gray);
-
         }
 
+
+        //// As faces is easiest to detect, check for these first.
         OpenCvSharp.Rect[] faces = new OpenCvSharp.Rect[0];
-        // As faces is easiest to detect, check for these first.
-       //faces = haarCascade.DetectMultiScale(
-       //                     gray, 1.15, 5, HaarDetectionType.DoRoughSearch | HaarDetectionType.ScaleImage, new Size(60, 60));
+        faces = haarCascade.DetectMultiScale(
+                             gray, 1.15, 5, HaarDetectionType.DoRoughSearch | HaarDetectionType.ScaleImage, new Size(60, 60));
+
+        //// Detect if any eyes are in the image.
+        //OpenCvSharp.Rect[] eyes = new OpenCvSharp.Rect[2];
+        //eyes = eyeCascade.DetectMultiScale(
+        //           gray, 1.15, 6, HaarDetectionType.DoRoughSearch | HaarDetectionType.ScaleImage, new Size(40, 40));
 
 
-        OpenCvSharp.Rect[] eyes = new OpenCvSharp.Rect[2];
-        eyes = eyeCascade.DetectMultiScale(
-                   gray, 1.15, 6, HaarDetectionType.DoRoughSearch | HaarDetectionType.ScaleImage, new Size(40, 40));
+        //// If eyes are equal = 2 then there must be a face. - assumption is that the two eyes are from the same person. 
+        //if (eyes.Length == 2 && faces.Length == 0)
+        //{
+        //    Point averagePoint = new Point();
+        //    averagePoint.X = (eyes[0].X + eyes[1].X) / 2;
+        //    averagePoint.Y = (eyes[0].Y + eyes[1].Y) / 2;
+        //    faces = new OpenCvSharp.Rect[1];
+        //    faces[0] = new OpenCvSharp.Rect(averagePoint, new Size(150, 150));
+        //}
+        //// If there is an eye, there must be a face. Not as accurate as there is no other landmark to triangulate point.
+        //else if (eyes.Length == 1 && faces.Length == 0)
+        //{
+        //    Point averagePoint = new Point();
+        //    averagePoint.X = eyes[0].X;
+        //    averagePoint.Y = eyes[0].Y - 2;
+        //    faces = new OpenCvSharp.Rect[1];
+        //    faces[0] = new OpenCvSharp.Rect(averagePoint, new Size(80, 80));
+        //}
 
-        // If eyes are equal = 2 then there must be a face. - assumption is that the two eyes are from the same person.
-        if (eyes.Length == 2 && faces.Length == 0)
-        {
-            Point averagePoint = new Point();
-            averagePoint.X = (eyes[0].X + eyes[1].X) / 2;
-            averagePoint.Y = (eyes[0].Y + eyes[1].Y) / 2;
-            faces = new OpenCvSharp.Rect[1];
-            faces[0] = new OpenCvSharp.Rect(averagePoint, new Size(150, 150));
-        }
-        // If there is an eye, there must be a face. Not as accurate as there is no other landmark to triangulate point.
-        else if (eyes.Length == 1 && faces.Length == 0)
-        {
-            Point averagePoint = new Point();
-            averagePoint.X = eyes[0].X;
-            averagePoint.Y = eyes[0].Y-2;
-            faces = new OpenCvSharp.Rect[1];
-            faces[0] = new OpenCvSharp.Rect(averagePoint, new Size(80, 80));
-        }
 
-      
         //// due to cascade method not being rotation invarient, rotate frame and check if face is there.
         //Mat clockRot = new Mat();
         //// If no faces were detected, rotate image.
@@ -127,32 +128,65 @@ public class FaceTracking : MonoBehaviour
 
         //}
 
-        // For each face detected, add square around feature, and check for eyes.
+        //// For each face detected, add square around feature, and check for eyes.
         foreach (var faceRect in faces)
-        {   
+        {
+            // Obain area face is contained.
             var faceMat = new Mat(frame, faceRect);
+            // Set color of rectangle for face.
             var color = Scalar.FromRgb(0, 0, 255);
+            // Draw rectangle around face. - remove once edge is found.
             Cv2.Rectangle(frame, faceRect, color, 3);
         }
 
-        foreach (var eyeRect in eyes)
-        {
-            var eyeMat = new Mat(gray, eyeRect);
-            var color = Scalar.FromRgb(0, 255, 0);
-            Cv2.Rectangle(frame, eyeRect, color, 3);
-        }
+        //foreach (var eyeRect in eyes)
+        //{
+        //    var eyeMat = new Mat(gray, eyeRect);
+        //    var color = Scalar.FromRgb(0, 255, 0);
+        //    Cv2.Rectangle(frame, eyeRect, color, 3);
+        //}
 
-        // Detect eyes
-        Cv2.ImShow("Video", frame);
+        // This segment is to draw contours around an image and display it on the OpenCv window.
 
-    //    frame.SaveImage("image",);
-        Cv2.ImWrite("image.jpg", frame);
+        // Blur the image.
+        Cv2.Blur(gray, gray, new Size(3, 3));
+        // Detect edges using canny - Lower number = more contours.
+        Cv2.Canny(gray, cannyOutput, 100, 255);
+       // Cv2.Threshold(gray, cannyOutput,100,255,ThresholdTypes.BinaryInv);
+        // Find contours
         
-        snapFrame =  Resources.Load("image.jpg") as Texture2D;
-        
+        Cv2.FindContours(cannyOutput, out contours, out hierarchy, RetrievalModes.Tree, ContourApproximationModes.ApproxTC89L1, new Point(0, 0));
+        // Draw contours
+       
+        //Parallel.For(0, contours.Length, i =>
+        //{
+            // Cv2.DrawContours(frame, contours, i, Scalar.White, 2, LineTypes.Filled, hierarchy);
+          
+        //});
+        if(contours != null)
+            for (int i = 0; i < contours.Length;i++)
+            {
+                Cv2.DrawContours(frame, contours, i, Scalar.White, 2, LineTypes.Link8, hierarchy);
+                if (Input.GetKeyDown("space"))
+                    Application.Quit();
+            }
+            //Debug.Log("Drawn contour.");
+        // Update video.
+        Cv2.ImShow("Contours", frame);
+
+
+
+        //    frame.SaveImage("image",);
+        //     Cv2.ImWrite("image.jpg", frame);
+
+        //    snapFrame =  Resources.Load("image.jpg") as Texture2D;
+
         //Debug.Log(snapFrame.dimension);
     }
 
+
+
+    // Trying to convert OpencV texture to a Unity texture2D. 
     void MatToTexture(Mat m, Texture2D tex)
     {
  
