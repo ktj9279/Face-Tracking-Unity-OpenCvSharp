@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.5.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -109,12 +107,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GrabCut.cs" />
     <Compile Include="Assets\Scripts\ImprovedFaceContours.cs" />
+    <Compile Include="Assets\Scripts\MatToTexture.cs" />
     <Compile Include="Assets\Scripts\Test.cs" />
+    <Compile Include="Assets\Scripts\UsingComputeShader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\haarcascade_eye.xml" />
     <None Include="Assets\Resources\haarcascade_frontalface_default.xml" />
+    <None Include="Assets\Scripts\ConvertMat.compute" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
