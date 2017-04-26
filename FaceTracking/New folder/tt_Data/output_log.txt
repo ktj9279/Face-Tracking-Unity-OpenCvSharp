@@ -1,0 +1,1971 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     2020 MB
+    Driver:   20.19.15.4531
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\OpenCvSharp.Blob.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\OpenCvSharp.Blob.dll into Unity Child Domain
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\OpenCvSharp.dll (this message is harmless)
+Loading C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\OpenCvSharp.dll into Unity Child Domain
+- Completed reload, in  0.067 seconds
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\conner\Documents\GitHub\Face-Tracking-Unity-OpenCvSharp\FaceTracking\New folder\tt_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+DllNotFoundException: C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+  at (wrapper managed-to-native) OpenCvSharp.NativeMethods:redirectError (OpenCvSharp.CvErrorCallback,intptr,intptr&)
+  at OpenCvSharp.NativeMethods.LoadLibraries (IEnumerable`1 additionalPaths) [0x00000] in <filename unknown>:0 
+  at OpenCvSharp.NativeMethods..cctor () [0x00000] in <filename unknown>:0 
+Rethrow as TypeInitializationException: An exception was thrown by the type initializer for OpenCvSharp.NativeMethods
+  at OpenCvSharp.Mat..cctor () [0x00000] in <filename unknown>:0 
+Rethrow as TypeInitializationException: An exception was thrown by the type initializer for OpenCvSharp.Mat
+  at FaceTracking..ctor () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 2.382820 ms
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was x64 architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+DllNotFoundException: C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+  at (wrapper managed-to-native) OpenCvSharp.NativeMethods:redirectError (OpenCvSharp.CvErrorCallback,intptr,intptr&)
+  at OpenCvSharp.NativeMethods.LoadLibraries (IEnumerable`1 additionalPaths) [0x00000] in <filename unknown>:0 
+  at OpenCvSharp.NativeMethods..cctor () [0x00000] in <filename unknown>:0 
+Rethrow as TypeInitializationException: An exception was thrown by the type initializer for OpenCvSharp.NativeMethods
+  at OpenCvSharp.Mat..cctor () [0x00000] in <filename unknown>:0 
+Rethrow as OpenCvSharpException: Failed to create VideoCapture
+  at OpenCvSharp.VideoCapture..ctor () [0x00000] in <filename unknown>:0 
+  at FaceTracking.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3a74 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at FaceTracking.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was Unknown architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Failed to load 'C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll', expected x86 architecture, but was Unknown architecture. You must recompile your plugin for x86 architecture.
+ 
+(Filename:  Line: 141)
+
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/.\libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+Fallback handler could not load library C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Mono/libC:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+DllNotFoundException: C:/Users/conner/Documents/GitHub/Face-Tracking-Unity-OpenCvSharp/FaceTracking/New folder/tt_Data/Plugins/OpenCvSharpExtern.dll
+  at (wrapper managed-to-native) OpenCvSharp.NativeMethods:redirectError (OpenCvSharp.CvErrorCallback,intptr,intptr&)
+  at OpenCvSharp.NativeMethods.LoadLibraries (IEnumerable`1 additionalPaths) [0x00000] in <filename unknown>:0 
+  at OpenCvSharp.NativeMethods..cctor () [0x00000] in <filename unknown>:0 
+Rethrow as TypeInitializationException: An exception was thrown by the type initializer for OpenCvSharp.NativeMethods
+  at OpenCvSharp.Mat..cctor () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
